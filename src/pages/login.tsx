@@ -11,7 +11,7 @@ export const LoginPage: React.FC = () => {
 
     return (
         <Container style={page}>
-            <Card style={card}>
+            <Card style={card} className="p-3">
                 <Col style={{display: "flex", flexDirection: "column"}}>
                     <h2>Log In</h2>
                     <Form>
